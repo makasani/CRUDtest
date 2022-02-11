@@ -1,0 +1,80 @@
+*{
+box-sizing: border-box;
+
+
+}
+.container{
+    margin: 0 auto;
+    width: max-content;
+    
+}
+
+form{
+    width: max-content;
+    margin: 0 auto;
+    font-family: "Segoe UI", sans-serif;
+    padding: 25px 28px;
+    background: #151414;
+    border-radius: 4px;
+    border: 1px solid #302d2d;
+}
+
+.input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.input input{
+    padding: 10px 8px;
+    width: 100%;
+    font-size: 16px;
+    background: #323131;
+    border: none;
+    color: #c7c7c7;
+    border-radius: 4px;
+    outline: none;
+}
+.input input:hover {
+    background: #404040;
+}
+
+label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #c7c7c7;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 18px;
+    font-size: 15px;
+    background: #1a3969;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    color: #f4f4f4;
+}
+button:hover {
+    opacity: 0.9;
+}
+.alert {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px; 
+    background: #ca3b3f;
+}
+
+.signup{
+    display: block;
+    text-decoration: none;
+    color:#c7c7c7;
+    margin: 15px 5px 1px 34px;
+    
+}
